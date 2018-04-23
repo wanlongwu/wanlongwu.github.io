@@ -1,3 +1,7 @@
+.body {
+  font-family: roboto;
+}
+
 .navbar-wagon {
   background: #17B6D1;
   transition: all 0.3s ease;
@@ -8,23 +12,16 @@
   justify-content: space-between;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
-
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
+body > div.navbar-wagon {
+  display: flex;
+  justify-content: right;
 }
 
 /* Right section */
 .navbar-wagon-right {
-  display: flex;
+  padding-left: 70%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: right;
 }
 
 /* Basic navbar item */
@@ -75,6 +72,21 @@
   border-top: 1px solid #E6E6E6;
 }
 
+#header {
+  background: #1E747C url(../img/header.jpg) no-repeat;
+  background-size:100%;
+  padding-top:30%;
+  text-align: center;
+  margin: auto;
+}
+
+#header h1{
+  margin-top: -8px;
+}
+
+#header h5{
+  margin-bottom: 32px;
+}
 
 img {
   max-width: 100%;
@@ -124,12 +136,6 @@ img {
 
 .site-copy {
   max-width: 700px;
-}
-
-.welcome-card > .mdl-card__title {
-  color: #fff;
-  height: 290px;
-  background: url("../img/cover.jpg") center/cover;
 }
 
 .event-card {
