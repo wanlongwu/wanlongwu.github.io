@@ -1,15 +1,20 @@
 .body {
   font-family: roboto;
+  height: 100vh;
 }
 
 .navbar-wagon {
   background: #17B6D1;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
   height: 70px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.nav-up {
+  top: -70px; // same as header height. use variables in LESS/SASS
 }
 
 body > div.navbar-wagon {
@@ -20,6 +25,7 @@ body > div.navbar-wagon {
 /* Right section */
 .navbar-wagon-right {
   padding-left: 70%;
+  display: flex;
   align-items: center;
   justify-content: right;
 }
@@ -27,7 +33,7 @@ body > div.navbar-wagon {
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  margin: auto 20px;
 }
 
 /* Navbar link */
