@@ -1,6 +1,7 @@
 .body {
   font-family: roboto;
   height: 100vh;
+  color: #0b3a34;
 }
 
 .navbar-wagon {
@@ -11,10 +12,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.nav-up {
-  top: -70px; // same as header height. use variables in LESS/SASS
 }
 
 body > div.navbar-wagon {
@@ -91,7 +88,7 @@ body > div.navbar-wagon {
 }
 
 #header h5{
-  margin-bottom: 32px;
+  margin-bottom: 80px;
 }
 
 img {
@@ -145,7 +142,7 @@ img {
 }
 
 .event-card {
-  background: #3E4EB8;
+  background: #62ebff;
 }
 
 .event-card .mdl-card__actions {
@@ -219,6 +216,10 @@ img.article-image {
 .demo-card-image.mdl-card {
   width: 192px;
   height: 192px;
+}
+
+body > div > div > main > div > div.description > section > div.mdl-cell.mdl-card.mdl-cell--8-col.mdl-cell--4-col-tablet > ul > li:nth-child(2) {
+  text-align: center;
 }
 
 .person1 {
