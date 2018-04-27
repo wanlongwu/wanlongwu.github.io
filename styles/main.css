@@ -81,6 +81,8 @@ body > div.navbar-wagon {
   padding-top:30%;
   text-align: center;
   margin: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(6, 57, 102, 1) !important; }
 }
 
 #header h1{
