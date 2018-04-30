@@ -5,7 +5,7 @@
 }
 
 .navbar-wagon {
-  background: #17B6D1;
+  background: #36C68E;
   transition: all 0.3s ease-in-out;
   height: 70px;
   padding: 0px 30px;
@@ -35,7 +35,7 @@ body > div.navbar-wagon {
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: white;
+  color: black;
   font-size: 14px;
   text-decoration: none;
 }
@@ -76,9 +76,10 @@ body > div.navbar-wagon {
 }
 
 #header {
-  background: #1E747C url(../img/header.jpg) no-repeat;
-  background-size:100%;
-  padding-top:30%;
+  background: #53a035;
+  background: url("../img/greenbanner.png"), linear-gradient(#00bc52, #d13531); /* W3C */
+/*  background-size:100%;
+*/  padding-top:30%;
   text-align: center;
   margin: auto;
   color: white;
