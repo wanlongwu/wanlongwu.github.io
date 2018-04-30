@@ -79,19 +79,16 @@ body > div.navbar-wagon {
   background: #53a035;
   background: url("../img/greenbanner.png"), linear-gradient(#00bc52, #d13531); /* W3C */
 /*  background-size:100%;
-*/  padding-top:30%;
+*/padding-top:15%;
   text-align: center;
+  align-items: center;
   margin: auto;
   color: white;
   text-shadow: 1px 1px 4px rgba(6, 57, 102, 1) !important; }
 }
 
 #header h1{
-  margin-top: -8px;
-}
-
-#header h5{
-  margin-bottom: 80px;
+  /*margin-top: -8px;*/
 }
 
 img {
